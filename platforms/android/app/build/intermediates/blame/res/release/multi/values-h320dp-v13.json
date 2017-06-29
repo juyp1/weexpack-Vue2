@@ -1,0 +1,26 @@
+[
+    {
+        "outputFile": "/Users/juyunpeng/Documents/chanquan.portal.mobile.web/platforms/android/app/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-h320dp-v13/values-h320dp-v13.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 57,
+                    "endOffset": 108
+                },
+                "from": {
+                    "file": "/Users/juyunpeng/.android/build-cache/4c73ca1ac32121d9bd6224cfe3f0aff8a3e5c1e0/output/res/values-h320dp/values-h320dp.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 231,
+                        "endColumn": 57,
+                        "endOffset": 284
+                    }
+                }
+            }
+        ]
+    }
+]

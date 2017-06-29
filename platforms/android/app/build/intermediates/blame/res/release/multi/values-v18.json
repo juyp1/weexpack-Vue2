@@ -1,0 +1,26 @@
+[
+    {
+        "outputFile": "/Users/juyunpeng/Documents/chanquan.portal.mobile.web/platforms/android/app/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-v18/values-v18.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 48,
+                    "endOffset": 99
+                },
+                "from": {
+                    "file": "/Users/juyunpeng/.android/build-cache/4c73ca1ac32121d9bd6224cfe3f0aff8a3e5c1e0/output/res/values-v18/values-v18.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 229,
+                        "endColumn": 48,
+                        "endOffset": 273
+                    }
+                }
+            }
+        ]
+    }
+]

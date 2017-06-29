@@ -1,0 +1,64 @@
+::-webkit-input-placeholder {
+    color: #fff;
+    font-weight: lighter;
+}
+
+.bg {
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background: url(/images/denglu_bg_bg_rest.png) no-repeat center center fixed;
+}
+
+.container {
+    padding-left: 15px;
+    padding-right: 15px;
+    height: auto;
+    width: 100%
+}
+
+.mobile-back-menu {
+    margin-top: 13px!important;
+    margin-left: 10px;
+    width: 30px;
+    height: 30px;
+}
+
+.mobile-nav-title {
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    font-size: 14px;
+    top: -22px;
+    z-index: 100;
+}
+
+.mobile-input-userphone {
+    margin-top: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 14px;
+    padding-left: 4px;
+    background: rgba(255, 255, 255, 0.6);
+    /* border: 1px solid rgba(0,0,0, 0.2); */
+    /* background: url(/image/); */
+    background-image: url(/images/icon_bg_shouji_rest.png);
+    background-size: (20px, 20px);
+    background-repeat: no-repeat;
+    padding-left: 40px;
+    background-position: 8px;
+    background-size: 30px, 30px;
+    color: #fff;
+    border-radius: 6px;
+}
+
+@media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (orientation: portrait) {
+    .mobile-nav-title {
+        font-size: 16px;
+    }
+    .mobile-input-userphone {
+        margin-top: 120px;
+    }
+}

@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/Users/juyunpeng/Documents/chanquan.portal.mobile.web/platforms/android/app/build/intermediates/res/merged/release/menu/main_scan.xml",
+        "source": "/Users/juyunpeng/Documents/chanquan.portal.mobile.web/platforms/android/app/src/main/res/menu/main_scan.xml"
+    },
+    {
+        "merged": "/Users/juyunpeng/Documents/chanquan.portal.mobile.web/platforms/android/app/build/intermediates/res/merged/release/menu/main.xml",
+        "source": "/Users/juyunpeng/Documents/chanquan.portal.mobile.web/platforms/android/app/src/main/res/menu/main.xml"
+    }
+]

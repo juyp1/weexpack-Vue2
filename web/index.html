@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>产权</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-touch-fullscreen" content="yes">
+    <meta name="format-detection" content="telephone=no, email=no">
+    <!--<meta content="maximum-dpr=2" name="flexible" />
+    <meta content="modeName=750-12" name="grid" />-->
+    <!--<script src="http://g.tbcdn.cn/mtb/lib-flexible/0.3.4/??flexible_css.js,flexible.js"></script>
+    <script src="http://g.tbcdn.cn/mtb/lib-flexible/0.3.4/makegrid.js"></script>-->
+    <!-- <style>body > div { height: 100%; }</style> -->
+    <style>
+        body::before {
+            content: "1";
+            height: 1px;
+            overflow: hidden;
+            color: transparent;
+            display: block;
+        }
+    </style>
+    <script src="../node_modules/vue/dist/vue.runtime.js"></script>
+    <script src="../node_modules/weex-vue-render/dist/index.js"></script>
+</head>
+
+<body>
+    <div id="root"></div>
+    <script>
+        (function() {
+
+
+
+            // lib.flexible.makeGridMode("750-12");
+
+            function getUrlParam(key) {
+                var reg = new RegExp('[?|&]' + key + '=([^&]+)')
+                var match = location.search.match(reg)
+                return match && match[1]
+            };
+            var page = getUrlParam('page') || '/dist/index.js';
+            var bundle = document.createElement('script')
+                // only for web
+            bundle.src = page.replace(/\.js$/, '.web.js')
+            document.body.appendChild(bundle)
+        })();
+    </script>
+
+</body>
+
+</html>
